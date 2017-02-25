@@ -46,7 +46,7 @@ $TransmissionWebControl = "http://" . $_SERVER['HTTP_HOST'] . ":9091/transmissio
 
 <!-- // INSERT YOUR CUSTOM EXTERNAL or INTERNAL MENU ITEMS HERE! // -->
 
-<li><a class="grayscale" href="<?php echo "$TransmissionWebControl"; ?>" target="_blank"><img src="img/brands/transmission.png" class="brand-ico"> <span>><?php echo T('Transmission Web Control'); ?></span></a></li>
+<li><a href="<?php echo "$TransmissionWebControl"; ?>" class="grayscale" target="_blank"><img src="img/brands/transmission.png" class="brand-ico"> <span><?php echo T('Transmission Web Control'); ?></span></a></li>
 <!-- OtakuNekoP add Transmission Support 20170225 -->
 
 <li><a href="<?php echo "$quickboxURL"; ?>" class="grayscale" target="_blank"><i class="fa fa-heart text-danger"></i> <span><?php echo T('DONATE'); ?></span></a></li>
